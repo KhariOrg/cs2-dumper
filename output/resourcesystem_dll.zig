@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-03 14:28:42.599611300 UTC
+// 2026-04-24 19:59:53.177281100 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
@@ -25,13 +25,6 @@ pub const cs2_dumper = struct {
             pub const FuseVariableAccess_t = enum(u8) {
                 WRITABLE = 0x0,
                 READ_ONLY = 0x1
-            };
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MResourceTypeForInfoType
-            pub const InfoForResourceTypeCNmIKRig = struct {
             };
             // Parent: None
             // Field count: 0
@@ -370,6 +363,13 @@ pub const cs2_dumper = struct {
             // Metadata:
             // MResourceTypeForInfoType
             pub const InfoForResourceTypeIPulseGraphDef = struct {
+            };
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MResourceTypeForInfoType
+            pub const InfoForResourceTypeCVDataItemDefs = struct {
             };
             // Parent: None
             // Field count: 5
